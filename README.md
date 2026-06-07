@@ -7,7 +7,7 @@ Script for creating subtitles for media files
 Download all the hours of slack from Archive.org
 
 
-** Windows instructions (needs an Nvidia)
+** Windows instructions (needs an Nvidia) **
 
 python -m venv .venv
 
@@ -15,7 +15,7 @@ python -m venv .venv
 
 pip install git+https://github.com/openai/whisper.git
 
-** Make a file called cudatest.py : 
+** Make a file called cudatest.py : **
 
 import torch
 
@@ -24,15 +24,15 @@ print(torch.cuda.is_available())
 
 python cudatest.py
 
-** False is bad.  
+** False is bad.  **
 
-** Get cuda installed to the environment (refer to torch and cuda docs if this is out of date) : 
+** Get cuda installed to the environment (refer to torch and cuda docs if this is out of date) : **
 
 python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 python cudatest.py
 
-** Check python cudatest.py returns True.  
+** Check python cudatest.py returns True.  **
 
 python cudatest.py
 
