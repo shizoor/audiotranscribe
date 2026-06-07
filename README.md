@@ -25,8 +25,10 @@ False is bad.
 Get cuda installed to the environment (refer to torch and cuda docs if this is out of date) : 
 
 python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
 python cudatest.py
 Check it returns True.  
+
 pip install soundfile
 
 Create a subdirectory called "input", mp3s go in there.  
