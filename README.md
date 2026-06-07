@@ -16,10 +16,12 @@ pip install git+https://github.com/openai/whisper.git
 Make a file called cudatest.py : 
 
 import torch
+
 print(torch.cuda.is_available())
 
 
 python cudatest.py
+
 False is bad.  
 
 Get cuda installed to the environment (refer to torch and cuda docs if this is out of date) : 
@@ -27,6 +29,7 @@ Get cuda installed to the environment (refer to torch and cuda docs if this is o
 python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 python cudatest.py
+
 Check it returns True.  
 
 pip install soundfile
