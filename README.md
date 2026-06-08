@@ -11,7 +11,7 @@ Download all the hours of slack from Archive.org
 
 python -m venv .venv
 
-.\.venv\Scripts\activate.ps1
+.venv\Scripts\activate.ps1
 
 pip install git+https://github.com/openai/whisper.git
 
